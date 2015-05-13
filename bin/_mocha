@@ -1,0 +1,6 @@
+var runner = require('../impl/runner');
+
+process.argv = runner.rewrite(process.argv);
+var mocha = process.argv[1];
+
+require(mocha);
