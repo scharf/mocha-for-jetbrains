@@ -1,6 +1,6 @@
 {
   "name": "mocha-for-jetbrains",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mocha replacement that allows to specify patterns for test files",
   "main": "index.js",
   "scripts": {
