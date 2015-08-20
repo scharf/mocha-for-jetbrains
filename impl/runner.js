@@ -2,7 +2,7 @@
 var path = require('path');
 function indexOfDash(arr) {
     for (var i = 0; i < arr.length; i++) {
-        if (arr[i].startsWith('-')) {
+        if (arr[i].indexOf('-') === 0) {
             return i;
         }
 
